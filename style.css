@@ -1,0 +1,39 @@
+.image {
+    width: 300px;
+    border: 3px solid red;
+    box-sizing: border-box;
+  
+    /* padding: top right bottom left */
+    /* padding: 10px 5px 10px 5px; */
+  
+    /* padding: top left-right bottom */
+    /* padding: 15px 5px 15px; */
+  
+    /* padding: top-bottom left-right */
+    /* padding: 5px 2px; */
+  
+    /* padding: all (top-right-bottom-left) */
+    padding: 10px;
+  
+    /* Крім сокроченого padding, ще є такі варіанти:
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+    */
+  
+    /* Маржини - синтаксично працюють кяк padding */
+    /* paddings - про простір між рамкою та контентом */
+    /* margins - про відношення до інших елементів */
+    margin-left: 60px;
+  }
+  
+  /* width = content + paddings + borders */
+
+  span{
+    width: 20px;
+  }
+
+  div{
+    display: inline;
+  }
