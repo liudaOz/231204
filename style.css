@@ -30,10 +30,11 @@
   
   /* width = content + paddings + borders */
 
-  span{
-    width: 20px;
+  div {
+    /* за замовчуванням, у div -, display - block */
+    display: inline; 
   }
-
-  div{
-    display: inline;
+  
+  span {
+    display: block;
   }
