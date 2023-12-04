@@ -38,3 +38,18 @@
   span {
     display: block;
   }
+  .card-wrapper{
+    border: 1 px solid red;
+    width: 500px;
+    height: 350px;
+  }
+
+  img{
+    display: blok;
+    margin: 0auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+  }
